@@ -5,7 +5,7 @@
 # stub: honeypot-captcha 0.0.3 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "honeypot-captcha"
+  s.name = %q{honeypot-captcha}
   s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -53,4 +53,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<simplecov>, [">= 0"])
   end
 end
-
