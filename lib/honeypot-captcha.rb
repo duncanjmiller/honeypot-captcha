@@ -3,7 +3,7 @@ require 'honeypot-captcha/form_tag_helper'
 module HoneypotCaptcha
   module SpamProtection
     def honeypot_fields
-      { :a_comment_body => 'Do not fill in this field' }
+      { :content => 'Do not fill in this field. It is an anti-spam measure.' }
     end
 
     def honeypot_string
